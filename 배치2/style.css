@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 1000px;
+    height: 100px;
+    margin: 20px auto;  
+    background-color: #bfbfbf;
+}
+
+#header .logo {
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    margin: 10px 10px;
+}
+
+#header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    align-items: center;
+    padding: 12px 0;
+    margin: -16px auto;
+}
+
+#header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header .nav-links {
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    margin-top: -24px;
+    margin-right: 16px;
+}
+
+#content {
+    width: 1000px;
+    height: fit-content;
+    background-color: #bfbfbf;
+    padding: 0 10px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#content #left_box {
+    width: 1000px;
+    height: fit-content;
+    background-color: #bfbfbf;
+    padding: 0 10px;
+    float: left;
+}
+
+#content #left_box .box {
+    width: 700px;
+    height: fit-content;
+    margin: 20px 4px;
+    border: 1px solid aquamarine;
+    padding: 20px;
+}
+
+#content #left_box .box h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#content #left_box .box p {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+#content #right_box {
+    width: 270px;
+    height: fit-content;
+    background-color: #bfbfbf;
+    padding: 20px;
+    margin: 20px 16px;
+    border: 1px solid aquamarine;
+    margin-bottom: 20px;
+}
+
+#content #right_box .box h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px auto;
+}
+
+#content #right_box .box p {
+    font-size: 14px;
+    padding: 1px auto;
+}
